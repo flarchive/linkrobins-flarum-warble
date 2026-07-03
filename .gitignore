@@ -1,0 +1,8 @@
+/vendor
+js/node_modules
+js/dist/*.map
+dist-typings
+composer.lock
+js/package-lock.json
+.DS_Store
+*.log
