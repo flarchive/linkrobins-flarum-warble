@@ -1,0 +1,36 @@
+linkrobins-warble:
+  admin:
+    transport_label: Realtime transport
+    transport_help: >
+      Automatic uses a websocket server when one is configured in config.php
+      and polling otherwise. Polling needs no server at all and works on any
+      hosting; a few seconds behind. A websocket is instant but you run it
+      yourself (Reverb, soketi, or any Pusher-compatible server).
+    transport_auto: Automatic
+    transport_polling: Polling (no server needed)
+    transport_socket: Websocket only
+    poll_interval_label: Polling interval (seconds)
+    poll_interval_help: >
+      How often each visitor's browser asks for updates in polling mode.
+      Lower is snappier and busier; higher is gentler on small hosting.
+      Hidden tabs stop polling entirely.
+    key_label: Warble key
+    key_help: >
+      Paste the key from your linkrobins.com dashboard → Warble. That's it —
+      Warble sets up the Realtime extension's connection for you automatically.
+      After you save, realtime can take up to a minute to activate. Leave it
+      blank to disconnect.
+    paste_key: Paste your Warble key below to turn on realtime. Get it from your linkrobins.com dashboard → Warble.
+    connected: >
+      ✓ Connected — realtime is set up on your forum. It can take up to a minute
+      to activate, so if new replies aren't appearing live right away, give it a
+      moment. Tip: open the Realtime extension's settings to tune typing
+      indicators, discussion-list updates, and notification toasts for your
+      community.
+    need_realtime: >
+      Warble needs the "Realtime" extension. Install and enable flarum/realtime,
+      then paste your Warble key below — Warble does the rest.
+    write_failed: >
+      Warble couldn't save the connection to your forum's config.php — it isn't
+      writable by the web server. Make config.php writable (or ask your host),
+      then save your key again.
