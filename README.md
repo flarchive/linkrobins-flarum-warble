@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of linkrobins/flarum-warble.** Not for installation: use [Packagist](https://packagist.org/packages/linkrobins/flarum-warble) or the [upstream repository](https://github.com/linkrobins/warble).
 
-**0** versions archived · Latest: [`v1.2.1`](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v1.2.1) · License: `MIT` · Flarum: `^2.0`
+**16** versions archived · Latest: [`v1.2.1`](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v1.2.1) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1` | 2026-07-03 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.1) |
+| `v0.2` | 2026-07-03 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.2) |
+| `v0.3` | 2026-07-03 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.3) |
+| `v0.4` | 2026-07-03 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.4) |
+| `v0.4.1` | 2026-07-03 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.4.1) |
+| `v0.5` | 2026-07-04 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.5) |
+| `v0.6` | 2026-07-11 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.6) |
+| `v0.7` | 2026-07-11 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.7) |
+| `v0.8` | 2026-07-22 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v0.8) |
+| `v1.0.0` | 2026-07-22 | `^2.0` | [Browse](https://github.com/flarchive/linkrobins-flarum-warble/tree/archive/v1.0.0) |
+
+[View all 16 versions](https://github.com/flarchive/linkrobins-flarum-warble/tags)
 
 Catalog entry: [packages/linkrobins-flarum-warble.json](https://github.com/flarchive/archive-index/blob/main/packages/linkrobins-flarum-warble.json)
 
