@@ -1,0 +1,85 @@
+{
+    "name": "linkrobins/flarum-warble",
+    "description": "Realtime for Flarum with no server to run. Makes flarum/realtime work anywhere, including shared hosting: polling out of the box, or point it at a websocket server you run.",
+    "keywords": [
+        "flarum",
+        "realtime",
+        "websocket",
+        "warble"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Link Robins",
+            "email": "karl@linkrobins.com",
+            "homepage": "https://linkrobins.com"
+        }
+    ],
+    "homepage": "https://linkrobins.com/extensions",
+    "support": {
+        "issues": "https://github.com/linkrobins/warble/issues",
+        "source": "https://github.com/linkrobins/warble",
+        "docs": "https://github.com/linkrobins/warble#readme",
+        "email": "karl@linkrobins.com"
+    },
+    "require": {
+        "php": "^8.3",
+        "flarum/core": "^2.0",
+        "flarum/realtime": "^2.0@RC",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkRobins\\Warble\\": "src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "extra": {
+        "flarum-extension": {
+            "title": "LR Warble",
+            "icon": {
+                "name": "fas fa-bolt",
+                "color": "#07adcc",
+                "backgroundColor": "#1a2535"
+            },
+            "category": "feature"
+        },
+        "flarum-cli": {
+            "modules": {
+                "githubActions": true,
+                "backendTesting": true
+            }
+        }
+    },
+    "require-dev": {
+        "flarum/testing": "^2.0",
+        "flarum/phpstan": "^2.0",
+        "flarum/tags": "^2.0@RC",
+        "flarum/messages": "^2.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LinkRobins\\Warble\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache",
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis.",
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    }
+}
